@@ -18,7 +18,7 @@ function exibirMensagemNaTela(tag,texto){
 }
 //Foi criada esta função para poder repetir estas mensagens quando iniciar um novo jogo
 function exibirMensagemNaTelaInicial(){
-    exibirMensagemNaTela('h1','Bem vindo ao jogo do número secreto!');
+    exibirMensagemNaTela('h1','Jogo do número secreto!');
     exibirMensagemNaTela('p', 'Escolha um número de 1 - 100');
 }
 // precisamos chamar a nova função fora de qualquer outra função para ser iniciada na primeira vez que o app.js for lido.
@@ -96,3 +96,4 @@ function reiniciarJogo() {
     // Faz o botão reiniciar ser desativado no inicio do jogo novamente
     document.getElementById('reiniciar').setAttribute('disabled',true);
 }
+
